@@ -34,6 +34,9 @@ p{
     margin: 5px 0px;
 }
 
+.img:hover{
+    transform: scale(1.1);
+}
 .btn{
     background-color: #FF4301;
     color: white;
@@ -211,7 +214,44 @@ hr {
     font-weight: bold;
     
 }
+/*==============================\*
+-----Extra Section Area------
+/*==============================*/
+.extra-sec-area{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.contact-us-img img{
+    width: 100%;
+   transition: all 1s;
+   border-radius: 10px;
+
+}
+.contact-us-img img:hover{
+   transform: scale(1.1);
+
+}
+
+.big-btn{
+    height: 200px;
+    width: 400px;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 1px 1px rgb(252, 250, 250), -.5em 0 .5em rgb(31, 31, 27);
+    transition: all 1s;
+} 
+
+.big-btn:hover{
+    transform: scale(1.2);
+}
+
+
+.extra-sec-area{
+    
+}
 
 /*==============================\*
 -----Footer Area------
