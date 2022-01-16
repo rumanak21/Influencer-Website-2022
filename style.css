@@ -13,13 +13,22 @@ body {
 -----CSS Utility------
 /*====================*/
 
+:root{
+    --main-color:#DFD3C3;
+    --tittle-color:#596E79;
+}
+
+.container{
+    margin: 50px 0;
+}
+
 .tittle-handle{
     font-family: 'Raleway', sans-serif;
-    color: #04293A;
+    color: var(--tittle-color);
 }
 
 p{
-    color: #041C32;
+    color: var(--tittle-color);
 }
 
 .btn{
@@ -45,7 +54,7 @@ p{
 
 .t-header-left h2{
     font-family: 'Raleway', sans-serif;
-    /* font-weight: 500; */
+    
 }
 
 
@@ -66,7 +75,7 @@ li a {
 -----Main Header------
 /*====================*/
 #main-header{
-    margin: 30px 0px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +95,7 @@ li a {
     
     height: 500px;
     width: 500px;
-    border: 3px solid #FCECDD;
+    border: 3px solid var(--main-color);
     border-radius: 50%;
 }
 .bg-color{
@@ -94,7 +103,7 @@ li a {
     margin: 80px auto;
     height: 350px;
     width: 350px;
-    background: #FCECDD;
+    background: var(--main-color);
     border-radius: 50%;
 }
 
@@ -108,3 +117,34 @@ li a {
    transition: 1s;
 
 }
+
+/*==================\*
+-----Logo Section Area------
+/*====================*/
+
+#logo-section{
+    
+  
+}
+
+.all-logos{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), var(--main-color), rgba(0, 0, 0, 0));
+    
+}
+
+/*==================\*
+-----Products Section Area------
+/*====================*/
