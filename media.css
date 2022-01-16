@@ -1,0 +1,66 @@
+/* For Mobile Device */
+
+@media only screen and (max-width: 688px) {
+    .container{
+        margin: 0px 20px;
+    }
+
+    #top-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .t-header-right .fas,
+    li a {
+        list-style: none;
+        text-decoration: none;
+        margin-right: 10px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #main-header{
+        margin: 20px;
+    
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    
+    .all-logos{
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    #all-products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        /* padding:0px 0px; */
+    }
+    #all-products p{
+       font-size: 15px;
+        
+    }
+
+    .extra-sec-area{
+        align-items: center;
+        
+        flex-direction: column;
+        
+    }
+    .contact-us-img img{
+        width: 80%;
+
+    
+    }
+
+    .big-btn{
+        height: 100px;
+        width: 200px;
+        border-radius: 50%;
+        font-size: 20px;
+        margin: 10px;
+        
+    } 
+
+}
