@@ -110,12 +110,12 @@ li a {
 
 .m-header-r img{
     margin: -45px;
+    transition: all 1s;
 }
 
 .m-header-r img:hover{
 
    transform: scale(1.1);
-   transition: 1s;
 
 }
 
@@ -161,12 +161,13 @@ hr {
     padding:30px 70px;
     
 }
-.see-more{
-    display: block;
+.see-more p{
+    
     margin-bottom: 20px;
     text-align: right;
     color: #FF4301;
     cursor: pointer;
+    
 }
 
 .product{
@@ -178,7 +179,13 @@ hr {
 .product img{
     width: 100%;
     text-align: center;
+
+    transition: all 1s;
     
+}
+.product img:hover{
+    
+    transform: scale(1.1);
 }
 
 .product h2, .product h3 {
