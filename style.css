@@ -59,6 +59,7 @@ p{
     display: flex;
 }
 
+
 .t-header-right .fas,
 li a {
     list-style: none;
@@ -210,8 +211,13 @@ hr {
     text-align: center;
 }
 #footer-area h2{
-    color: white;
-    margin-bottom: 10px;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+#footer-area p{
+    color: whitesmoke;
+    font-weight: normal;
+    line-height: 25px;
 }
 
 .s-icon .fab{
